@@ -1,0 +1,59 @@
+----------------------------------------------------------------------------
+                            REQUESTS HEADERS
+                            
+        While it might appear like request headers are just minor metadata 
+    details, in web scraping they are extremely important.
+    
+        Headers contain essential details about te request - who's requesting
+    the data? What type of data they are expecting? Using wrong or incomplete 
+    headers might result in a error or even get the web scraper blocked
+    
+    
+                        ----- User-Agent -----
+        
+        This is the client's identity header. It tells the server what type of 
+    client is making the request: is it a desktop web browser? or a phone app?
+        Whenever you visit a web page in your web browser it identifies itself 
+    with a User-Agent string that looks something like "Browser Name, Operating 
+    System, Some version numbers".
+    
+                        ----- Cookie -----
+       
+        Cookies are used to store persistent data. This is a vital feature for
+    websites to keep track of user state: user logins, configuration preferences 
+    etc. All of the cookie information is exchanged through this Cookie header.
+    
+                        ----- Accept -----
+        Accept headers (also Accept-encoding, Accept-Language etc.) contain in-
+    formation about what sort of content the client is expecting to receive.
+        Generelly, when web scraping we wnat to mimic this one of the popular 
+    web browsers.
+    
+                        ----- X- Prefixed Headers----
+        These headers are special custom headers that could mean anything. The-
+    se are important to keep an eye on when web scraping, as they migth confi-
+    gure important functionality of the website/webapp
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
