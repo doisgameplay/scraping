@@ -23,5 +23,3 @@ for job in selector.css('.box-list .item'):
 
 
 
-
-
